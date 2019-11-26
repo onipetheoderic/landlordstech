@@ -1,0 +1,13 @@
+.body__children {
+    position: absolute;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    margin-left: 10%;
+    height: 63%;
+}
+.description {
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+}

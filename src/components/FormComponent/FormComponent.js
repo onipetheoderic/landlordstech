@@ -21,14 +21,14 @@ return (
                 <div className="spacer" />
                 <div className="form__container">
                     <label>
-                        <p>Lastname*</p>
+                        <p className="form__label">Lastname*</p>
                         <input type="text" className="form__inputs"/>
                     </label>
                 </div>
                 <div className="spacer" />
                 <div className="form__container">
                     <label>
-                        <p>Gender*</p>
+                        <p className="form__label">Gender*</p>
                             <select className="form__inputs--select">
                                 <option value="Male" selected value="Male">Male</option>
                                 <option value="Female">Female</option>
@@ -41,13 +41,13 @@ return (
             <div className="form__column">
                     <div className="form__container">
                         <label>
-                            <p>Email*</p>
+                            <p className="form__label">Email*</p>
                             <input type="text" className="form__inputs"/>
                         </label>
                     </div>
                     <div className="form__container">
                         <label>
-                            <p>Mobile Number</p>
+                            <p className="form__label">Mobile Number</p>
                             <input type="text" className="form__inputs"/>
                         </label>
                     </div>
@@ -55,7 +55,7 @@ return (
                     <div className="spacer" />
                     <div className="form__container">
                         <label>
-                            <p>Business Registration Number</p>
+                            <p className="form__label">Business Registration Number</p>
                             <input type="text" className="form__inputs"/>
                         </label>
                     </div>
@@ -64,14 +64,14 @@ return (
             <div className="form__column">
                     <div className="form__container">
                         <label>
-                            <p>Business</p>
+                            <p className="form__label">Business</p>
                             <input type="text" className="form__inputs"/>
                         </label>
                     </div>
                     <div className="spacer" />
                     <div className="form__container_large">
                         <label>
-                            <p>Company Address</p>
+                            <p className="form__label">Company Address</p>
                             <input type="text" className="form__inputs--large"/>
                         </label>
                     </div>
@@ -81,7 +81,7 @@ return (
             <div className="form__column">
                     <div className="form__container">
                         <label>
-                            <p>Upload Certificate of Incorporation</p>
+                            <p className="form__label">Upload Certificate of Incorporation</p>
                             <div className="input-container">
                                 <input type="file" className="form__inputs--file"/>
                                 <FontAwesomeIcon 
@@ -93,14 +93,14 @@ return (
                     <div className="spacer" />
                     <div className="form__container">
                         <label>
-                            <p>Mode of Identification</p>
+                            <p className="form__label">Mode of Identification</p>
                             <input type="text" className="form__inputs"/>
                         </label>
                     </div>
                     <div className="spacer" />
                     <div className="form__container">
                         <label>
-                            <p>Upload Identification Document</p>
+                            <p className="form__label">Upload Identification Document</p>
                             <div className="input-container">
                                 <input type="file" className="form__inputs--file"/>
                                 <FontAwesomeIcon 
@@ -113,7 +113,7 @@ return (
             <div className="form__column">                                   
                     <div className="form__container">
                         <label>
-                            <p>Upload Photo of Yourself</p>
+                            <p className="form__label">Upload Photo of Yourself</p>
                             <div className="input-container">
                                 <input type="file" className="form__inputs--file"/>
                                 <FontAwesomeIcon 
@@ -124,14 +124,14 @@ return (
                     </div>
                     <div className="form__container">
                         <label>
-                            <p>Password</p>
+                            <p className="form__label">Password</p>
                             <input type="password" className="form__inputs"/>
                         </label>
                     </div>
                     <div className="spacer" />
                     <div className="form__container">
                         <label>
-                            <p>Confirm Password</p>
+                            <p className="form__label">Confirm Password</p>
                             <input type="password" className="form__inputs"/>
                         </label>
                     </div>

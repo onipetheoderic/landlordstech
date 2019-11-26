@@ -1,0 +1,97 @@
+#wrapper {
+    display: flex; /* Magic begins! */
+    height: 800px;
+    width: 60%;
+    border: 1px solid black;
+    margin:auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .right__bottom {
+      width: 230px;
+      flex: 1;
+  }
+  #left {
+    width: 400px; /* Desired width. Will be less is the window is narrow */
+    flex: 1;
+  }
+  .left {
+    width: 400px; /* Desired width. Will be less is the window is narrow */
+    flex: 1;
+  }
+  #right {
+    width: 400px;  /* Desired width. Will be less is the window is narrow */
+    margin-left: auto; /* Push it to the right */
+   
+  }
+  #wrapper > div > div { /* Unrelated styles */
+    float: left;
+    margin-left: 5px;
+  }
+  .break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th {
+      background-color: gray;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .down__table {
+      width: 100px;
+  }
+  .BUTTON_FYD {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 30px;
+    line-height: 50px;
+    color: #FFFFFF;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+ }
+ 
+ .BUTTON_FYD:hover {
+    border: solid #337FED 6px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

@@ -1,0 +1,57 @@
+.footer__div {
+    color: #012b3f;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    
+}
+.curved__container {
+    float: left;
+
+}
+.text__container {
+    padding-top: 15px;
+    float: left;
+}
+.images {
+    width: 80px;
+    height: 80px;
+    padding-left: 20px;
+    border-radius: 2px;
+    float: left;
+    padding-top: 15px;
+    margin-right: 6px;
+}
+
+.curved__text {
+    line-height: 8px;
+    font-size: 12px;
+}
+
+.footer__column {
+    float: left;
+    margin-left: 5%;
+    width: 20%;
+}
+
+.footer__column ul {
+    list-style-type: none;
+
+}
+.footer__column li {
+    text-align: 'center'
+}
+.curvedFooter {
+    width: 50%;
+    position: absolute;
+    height: 100px;
+    bottom: 0;
+    background: white;
+    margin-bottom: 200px;
+
+    right: 0;
+    border-top-left-radius: 10px;
+
+}

@@ -5,6 +5,10 @@ import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/BackDrop/Backdrop';
 import FormComponent from './components/FormComponent/FormComponent';
 import DashboardComponent from './components/DashboardComponent/DashboardComponent'; 
+
+// import HomePage from './components/HomePage/index'
+import HomePageScreen from './pages/HomePageScreen'
+
 class App extends React.Component{
   state = {
     sideDrawerOpen: false
@@ -42,14 +46,16 @@ class App extends React.Component{
     return (
           
       <div style={{height:'100%'}}>
-        <Toolbar drawerClickHandler={this.drawerToggleClickHandler} links={links} />
+         <HomePageScreen />
+        {/* <Toolbar drawerClickHandler={this.drawerToggleClickHandler} links={links} />
        <SideDrawer show={this.state.sideDrawerOpen} links={links}/>
        {backDrop}
-        <main style={{marginTop: '64px'}}>
+        <main style={{marginTop: '64px'}}> */}
         {/* <p>This is the Page Goes here content</p> */}
         {/* <FormComponent /> */}
-        <DashboardComponent />
-        </main>
+        {/* <DashboardComponent /> */}
+       
+        {/* </main> */}
       </div>
       );
   }
