@@ -8,57 +8,61 @@ import { faUpload } from '@fortawesome/free-solid-svg-icons'
 // the side drawer will contain the same items with the Toolbar
 const FormComponent = props => {
 
+     function handleSubmit(event){
+        event.preventDefault();
+        console.log(event.target[0].value)
+      }
+
 return (
     <div className="form">
-        <p style={{fontWeight:'bold', fontSize:35, textAlign:'center'}}>Get & Renew Licence</p>
-        <p style={{textAlign:'center', paddingLeft:200, paddingRight:200}}>Get and renew your license with ease, you must have been registered before you can issue/renew Licence <a>Register with LASERTRAD</a></p>
+       
+        <p className="big__header--text">Get & Renew Licence</p>
+        <p className="header__text__form">Get and renew your license with ease, you must have been registered before you can issue/renew Licence <a>Register with LASERTRAD</a></p>
         
         <div style={{textAlign:'center'}}>
-            <button style={{borderRadius:4, color:'white', width: 300, backgroundColor: '#0b3056', padding: '15px 32px', margin:"35px 80px"}}>Get Licence</button>             
-            <button style={{borderRadius:4, backgroundColor:'white', outline:'none', borderColor: '#0b3056', width: 300, padding: '15px 32px'}}>Renew Licence</button> 
+            <button className="left__button">Get Licence</button>             
+            <button className="right__button">Renew Licence</button> 
         </div>
+    <form onSubmit={handleSubmit}>
+    <div className="form__c">
+        <div className="form__u">
+        
+        <label>
+            <p className="get_form--label">Firstname*</p>
+            <input type="text" className="form__inputs" />
+        </label>
+                 
+        <label>
+            <p className="get_form--label">Firstname*</p>
+            <input type="text" className="form__inputs" />
+        </label>
+                    
+        </div>
+        <div className="left_side">        
+        <label>
+            <p className="get_form--label">Lastname*</p>
+            <input type="text" className="form__inputs"/>
+        </label>
+             
+        <label>
+            <p className="get_form--label">Firstname*</p>
+            <input type="text" className="form__inputs" />
+        </label>
+        </div>
+       
 
-        <div className="form__column">
-                    <div className="form__container">
-                        <label>
-                            <p className="form__label">Email*</p>
-                            <input type="text" className="form__inputs"/>
-                        </label>
-                    </div>
-                    <div className="form__container">
-                        <label>
-                            <p className="form__label">Mobile Number</p>
-                            <input type="text" className="form__inputs"/>
-                        </label>
-                    </div>
-            </div>
-            <div className="form__column">
-                    <div className="form__container">
-                        <label>
-                            <p className="form__label">Email*</p>
-                            <input type="text" className="form__inputs"/>
-                        </label>
-                    </div>
-                    <div className="form__container">
-                        <label>
-                            <p className="form__label">Mobile Number</p>
-                            <input type="text" className="form__inputs"/>
-                        </label>
-                    </div>
-            </div>
-            <div className="form__column__large">
-                    <div className="form__container_large">
-                        <label>
-                            <p className="form__label__large">Mobile Number</p>
-                            <input type="text" className="form__inputs__large"/>
-                        </label>
-                    </div>
-            </div>
-           
-    <div className="form__column_button">
-            <button onClick={props.onRegister} className="form__button">Register</button>
+        <div className="big__input">        
+            <label>
+                <p className="get_form--label">Lastname*</p>
+                <input type="text" className="form__inputs--big"/>
+            </label>
+        </div>
     </div>
     
+    <div className="form__column_buttons">
+            <button onClick={props.onRegister} className="form__buttons">Confirm</button>
+    </div>
+    </form>
 </div>
 )
 

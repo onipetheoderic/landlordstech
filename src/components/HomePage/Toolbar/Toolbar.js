@@ -16,8 +16,7 @@ const toolbar = props =>{
   const showBackgroundImage = props.showBackgroundImage
   const imageName = showBackgroundImage? tower:false
 return (
-  <div style={{backgroundImage: `url(${imageName})`,
-    position: 'absolute',
+  <div style={{
     top: 0,
     right: 0,
     left: 0,
@@ -26,7 +25,7 @@ return (
         <div className="homepage__navs_container">
           <ul className="home_links">
             <li className="logo__item"><img src={lagoslogo} className="homepage__image__logo"/></li>
-            <li className="logo__item--download"><button className="button--search"><FontAwesomeIcon className="homepage__icon--download" icon={faBars}/>Download Tenency Form</button></li>
+            <li className="logo__item--download"><button className="button--search"><FontAwesomeIcon style={{width:'20px'}} className="homepage__icon--download" icon={faBars}/>Download Tenency Form</button></li>
             <li className="logo__item--download"><button className="button1"><FontAwesomeIcon className="homepage__icon--download--search" icon={faSearch}/></button></li>
             <li className="logo__item--header"> <NavLink to="/" activeStyle={{ fontWeight: 'bold' }} style={{ cursor:'pointer', textDecoration: 'none', color:'white' }}><button>LASRETRAD</button></NavLink></li>
             <li className="logo__item--signup"><button>Sign Up</button></li>
@@ -36,7 +35,7 @@ return (
         </div>
         <div className="divider">
             <ul>
-                <li>Directory</li>
+            <li><NavLink to="/directory" activeStyle={{ fontWeight: 'bold' }} style={{ cursor:'pointer', textDecoration: 'none', color:'white' }}>Directory</NavLink></li>
                 <li><NavLink to="/licence" activeStyle={{ fontWeight: 'bold' }} style={{ cursor:'pointer', textDecoration: 'none', color:'white' }}>Get & Renew Licence</NavLink></li>
                 <li>Registration</li>
                 <li>Complaint & Petition</li>

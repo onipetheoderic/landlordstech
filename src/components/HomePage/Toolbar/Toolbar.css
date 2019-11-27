@@ -26,18 +26,19 @@
     color: white;
 }
 .homepage__image__logo {
+    margin: 10px 30px;
     width: 50px;
     height: 50px;
 }
 .logo__item {
-    padding-right: 2%;
+    padding-right: 1%;
 }
 .home__item {
     padding-left: 2%;
 }
 .logo__item--download {
     padding-top: 10px;
-    padding-right: 2%;
+    padding-right: 1%;
 }
 .logo__item--header {
     padding-left: 10%;
@@ -51,7 +52,7 @@
 }
 .logo__item--signup {
     padding-top: 10px;
-    margin: 0 2%;
+    margin: 0 1%;
 }
 .logo__item--signup button {
     color: white;
@@ -87,13 +88,4 @@ button .button1 {
 .divider li {
     float: left;
     padding-right: 2%;
-}
-
-.homebackground {
-    background-image: url(tower.jpg);
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 100%;
 }

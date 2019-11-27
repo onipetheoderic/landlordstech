@@ -9,7 +9,7 @@ const Footer = (props) => {
 
     return (
         <section className="footer__container">
-            {props.showCurvedFooter &&
+            {/* {props.showCurvedFooter &&
             <div className="curvedFooter">
 
                 <div className="curved__container">
@@ -38,9 +38,10 @@ const Footer = (props) => {
                 </div>
                 
             </div>      
-        }
+        } */}
 
-        <div className="footer__div">
+        <div className="footer">
+            <div className="footer__container_alone">
             <div className="footer__column">
                 <FooterTitle footerTitle="LASRETRAD" />
                <ul>
@@ -80,7 +81,7 @@ const Footer = (props) => {
                    <li>About us</li>
                </ul>
             </div> 
- 
+        </div>
         </div>
         </section>
     )

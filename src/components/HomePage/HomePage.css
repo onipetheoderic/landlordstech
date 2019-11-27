@@ -11,3 +11,28 @@
     font-size: 14px;
     line-height: 22px;
 }
+.homepage__container {
+    float: left;
+}
+.footer,
+.push {
+  height: 150px;
+}
+.footer{
+    background:white;
+}
+
+/* .demo {
+   
+    
+  } */
+  .footer__alone_container {
+      width: 82%;
+      margin: auto;
+  }
+  .footer__column ul {
+      padding-top: 20px;
+  }
+  .footer__column li {
+      text-align: left;
+  }

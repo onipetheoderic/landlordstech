@@ -10,11 +10,11 @@ const GetRenewLicence = (props) => {
     let history = useHistory();
 
   function handleClick() {
-    history.push("/invoice");
+    history.push("/paylicence");
   }
 
     return (
-        <HomePage width="100%" showCurvedFooter={false} showFooter={false} showBackgroundImage={false} backgroundColor="white" height="100%">
+        <HomePage width="100%" showCurvedFooter={false} showFooter={true} showBackgroundImage={false} backgroundColor="white" height="100%">
             <FormComponent onRegister = {handleClick}/>
         </HomePage>
     )

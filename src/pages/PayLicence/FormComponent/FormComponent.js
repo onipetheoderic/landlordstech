@@ -23,13 +23,13 @@ return (
         <div className="form__column">
                     <div className="form__container">
                         <label>
-                            <p className="form__label">Email*</p>
-                            <input type="text" className="form__inputs"/>
+                            <p className="form__label">Firstname*</p>
+                            <input type="text" className="form__inputs" />
                         </label>
                     </div>
                     <div className="form__container">
                         <label>
-                            <p className="form__label">Mobile Number</p>
+                            <p className="form__label">Lastname*</p>
                             <input type="text" className="form__inputs"/>
                         </label>
                     </div>
@@ -37,13 +37,13 @@ return (
             <div className="form__column">
                     <div className="form__container">
                         <label>
-                            <p className="form__label">Email*</p>
+                            <p className="form__label">Expiry Date*</p>
                             <input type="text" className="form__inputs"/>
                         </label>
                     </div>
                     <div className="form__container">
                         <label>
-                            <p className="form__label">Mobile Number</p>
+                            <p className="form__label">CVV</p>
                             <input type="text" className="form__inputs"/>
                         </label>
                     </div>
@@ -51,7 +51,7 @@ return (
             <div className="form__column__large">
                     <div className="form__container_large">
                         <label>
-                            <p className="form__label__large">Mobile Number</p>
+                            <p className="form__label__large">Pin</p>
                             <input type="text" className="form__inputs__large"/>
                         </label>
                     </div>

@@ -1,12 +1,13 @@
-.footer__div {
+.footer {
     color: #012b3f;
     background-color: white;
     width: 100%;
     position: absolute;
     bottom: 0;
     height: 200px;
-    
 }
+
+footer__container 
 .curved__container {
     float: left;
 
@@ -32,16 +33,14 @@
 
 .footer__column {
     float: left;
-    margin-left: 5%;
-    width: 20%;
+    width: 25%;
 }
 
 .footer__column ul {
     list-style-type: none;
-
 }
 .footer__column li {
-    text-align: 'center'
+    text-align: left
 }
 .curvedFooter {
     width: 50%;
