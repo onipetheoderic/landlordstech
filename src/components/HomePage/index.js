@@ -19,13 +19,14 @@ class HomePage extends React.Component{
     let maxWidth = this.props.width!==" "?this.props.maxWidth:'100%';
     let Width = this.props.width?this.props.width:'100%';
     let bgColor = this.props.bgColor? this.props.bgColor: 'white'
+    let paddingTop = this.props.paddingTop ? this.props.paddingTop: '104px'
     let MyImageBackground = this.props.showBackgroundImage ? Background: ""
     return (
       <>
       <div style={{backgroundColor:'#012b3f', width:'100%', backgroundImage: `url(${MyImageBackground})`}}>
           <Toolbar showBackgroundImage={this.props.showBackgroundImage} backgroundColor={this.props.backgroundColor}/>
         <div style={{margin: '133px auto',
-    paddingTop: '104px',
+    paddingTop: paddingTop,
     paddingBottom: '30px',
     maxWidth: maxWidth,
     background: bgColor,

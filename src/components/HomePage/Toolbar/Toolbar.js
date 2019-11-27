@@ -38,10 +38,10 @@ return (
             <li><NavLink to="/directory" activeStyle={{ fontWeight: 'bold' }} style={{ cursor:'pointer', textDecoration: 'none', color:'white' }}>Directory</NavLink></li>
                 <li><NavLink to="/licence" activeStyle={{ fontWeight: 'bold' }} style={{ cursor:'pointer', textDecoration: 'none', color:'white' }}>Get & Renew Licence</NavLink></li>
                 <li>Registration</li>
-                <li>Complaint & Petition</li>
-                <li>Information & Data Analysis</li>
-                <li>Whistle Blowing</li>
-                <li>Education</li>
+                <li><NavLink to="/complaintandpetition" activeStyle={{ fontWeight: 'bold' }} style={{ cursor:'pointer', textDecoration: 'none', color:'white' }}>Complaint & Petition</NavLink></li>
+                <li><NavLink to="/information" activeStyle={{ fontWeight: 'bold' }} style={{ cursor:'pointer', textDecoration: 'none', color:'white' }}>Information & Data Analysis</NavLink></li>
+                <li><NavLink to="/whistle_blowing" activeStyle={{ fontWeight: 'bold' }} style={{ cursor:'pointer', textDecoration: 'none', color:'white' }}>Whistle Blowing</NavLink></li>
+                <li><NavLink to="/education" activeStyle={{ fontWeight: 'bold' }} style={{ cursor:'pointer', textDecoration: 'none', color:'white' }}>Education</NavLink></li>
                 <li>Rules & Regulation</li>
                 <li>News & Events</li>
             </ul>
